@@ -1,12 +1,4 @@
 <!DOCTYPE html>
-import { Analytics } from '@vercel/analytics/react';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
 <html>
 
 <head>
@@ -17,8 +9,6 @@ export default function RootLayout({
 </head>
 
 <body>
-  {children}
-  <Analytics/>
 <div class="wrapper">
   <section class="screen">
     0
@@ -57,5 +47,3 @@ export default function RootLayout({
 </body>
 
 </html>
-);
-}
